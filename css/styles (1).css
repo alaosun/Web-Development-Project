@@ -1,0 +1,145 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f0e3;
+    color: #3d0918; /* Deep Wine Color */
+    line-height: 1.8;
+}
+
+/* Header styling */
+header {
+    background-color: #3d0918; /* Deep Wine Color */
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #ff5733;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #5a1e3e;
+    border-radius: 8px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+    border-right: 1px solid #ff5733;
+    padding-right: 10px;
+}
+
+nav ul li:last-child a {
+    border-right: none;
+}
+
+nav ul li a:hover {
+    color: #ff5733;
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    padding: 2.5rem;
+    max-width: 1100px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+/* Link styling */
+a {
+    color: #d44a3a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #a8322d;
+}
+
+a:visited {
+    color: #b84134;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #3d0918;
+    color: white;
+    margin-top: 20px;
+    border-top: 3px solid #ff5733;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer a {
+    color: #ff5733;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ff784e;
+}
+
+/* Custom button styling */
+.button {
+    background-color: #d44a3a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #a8322d;
+}
+
+/* Image styling */
+.image-container {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.resize-image {
+    width: 60%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 5px solid #440202;
+    display: block;
+    margin: 20px auto;
+}
